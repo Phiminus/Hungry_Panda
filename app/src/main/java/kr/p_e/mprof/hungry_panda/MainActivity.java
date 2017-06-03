@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    AlertDialog.Builder AlertDialog;
+        AlertDialog.Builder AlertDialog;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
