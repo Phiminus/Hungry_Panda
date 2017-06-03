@@ -30,16 +30,19 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(id.getText().toString().equals("manzi") && password.getText().toString().equals("0815"))
                 {
-                    Intent intent = new Intent(MainActivity.this, ); // TODO 로그인 넘어갈 곳 지정
-                    startActivity(intent);
+               //     Intent intent = new Intent(MainActivity.this, ); // TODO 로그인 넘어갈 곳 지정
+              //      startActivity(intent);
+                    Toast.makeText(getApplicationContext(),"LOGIN",Toast.LENGTH_SHORT);
                 }
             }
         });
         guest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ); // TODO 게스트 넘어갈 곳 지정
-                startActivity(intent);
+             //   Intent intent = new Intent(MainActivity.this, ); // TODO 게스트 넘어갈 곳 지정
+             //   startActivity(intent);
+
+                Toast.makeText(getApplicationContext(),"GUEST",Toast.LENGTH_SHORT);
             }
         });
     }
