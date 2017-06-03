@@ -3,18 +3,20 @@ package kr.p_e.mprof.hungry_panda;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
         AlertDialog.Builder AlertDialog;
     EditText id,password;
-    Button signin, guest;
+    ImageButton signin, guest;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -22,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         password = (EditText)findViewById(R.id.editText);
         id = (EditText)findViewById(R.id.editText2);
 
-        guest = (Button)findViewById(R.id.button2);
-        signin = (Button)findViewById(R.id.button4);
+        guest = (ImageButton)findViewById(R.id.imageButton);
+        signin = (ImageButton)findViewById(R.id.imageButton2);
 
         signin.setOnClickListener(new View.OnClickListener() {
             @Override
