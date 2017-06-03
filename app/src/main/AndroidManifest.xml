@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".GuestActivity" />
-        <activity android:name=".ReguralActivity"></activity>
+        <activity android:name=".ReguralActivity" />
+        <activity android:name=".InterfaceActivity"></activity>
     </application>
 
 </manifest>
