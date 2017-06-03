@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         signin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(id.getText().toString().equals("manzi") && password.getText().toString().equals("0815") {
+                if(id.getText().toString().equals("manzi") && password.getText().toString().equals("0815")) {
                     Intent intent = new Intent(MainActivity.this, ReguralActivity.class);
                     startActivity(intent);
 
