@@ -14,9 +14,10 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-        AlertDialog.Builder AlertDialog;
+    AlertDialog.Builder AlertDialog;
     EditText id,password;
     ImageButton signin, guest;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -24,27 +25,25 @@ public class MainActivity extends AppCompatActivity {
         password = (EditText)findViewById(R.id.editText);
         id = (EditText)findViewById(R.id.editText2);
 
-        guest = (ImageButton)findViewById(R.id.imageButton);
-        signin = (ImageButton)findViewById(R.id.imageButton2);
+        signin = (ImageButton)findViewById(R.id.imageButton);
+        guest = (ImageButton)findViewById(R.id.imageButton3);
 
         signin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(id.getText().toString().equals("manzi") && password.getText().toString().equals("0815"))
-                {
-               //     Intent intent = new Intent(MainActivity.this, ); // TODO 로그인 넘어갈 곳 지정
-              //      startActivity(intent);
-                    Toast.makeText(getApplicationContext(),"LOGIN",Toast.LENGTH_SHORT);
+                if(id.getText().toString().equals("manzi") && password.getText().toString().equals("0815") {
+                    Intent intent = new Intent(MainActivity.this, ReguralActivity.class);
+                    startActivity(intent);
+
                 }
             }
         });
+
         guest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-             //   Intent intent = new Intent(MainActivity.this, ); // TODO 게스트 넘어갈 곳 지정
-             //   startActivity(intent);
-
-                Toast.makeText(getApplicationContext(),"GUEST",Toast.LENGTH_SHORT);
+                Intent intent = new Intent(MainActivity.this, GuestActivity.class);
+                startActivity(intent);
             }
         });
     }
