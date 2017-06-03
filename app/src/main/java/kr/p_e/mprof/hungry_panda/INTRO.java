@@ -25,6 +25,6 @@ public class INTRO extends AppCompatActivity {
                     startActivity(intent);
                     finish();
                 }
-            }, 3000);
+            }, 3001);
     }
 }
