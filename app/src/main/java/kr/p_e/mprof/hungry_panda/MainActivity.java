@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(id.getText().toString().equals("manzi") && password.getText().toString().equals("0815")) {
+
+                    Toast.makeText(getApplicationContext(),"로그인되었습니다.",Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(MainActivity.this, ReguralActivity.class);
                     startActivity(intent);
 
