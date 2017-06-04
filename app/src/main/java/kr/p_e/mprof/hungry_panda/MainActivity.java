@@ -6,7 +6,10 @@ import android.content.Intent;
 import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.InflateException;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -34,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
                 if(id.getText().toString().equals("manzi") && password.getText().toString().equals("0815")) {
                     Intent intent = new Intent(MainActivity.this, ReguralActivity.class);
                     startActivity(intent);
-
                 }
             }
         });
