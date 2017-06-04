@@ -82,4 +82,7 @@
     <string name="Guest">\n\t\t\t\t\t\t\t\t\t\t게스트로 접속하기\n</string>
     <string name="SIGNIN">\n\t\t\t회원가입\n</string>
     <string name="LOGIN">\n\t\t\t\t로그인\n</string>
+    <string name="alert_quit">어플을 종료하시겠습니까?</string>
+    <string name="alert_quit_yes">네</string>
+    <string name="alert_quit_no">아니오</string>
 </resources>

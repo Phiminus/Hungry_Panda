@@ -55,15 +55,15 @@ public class MainActivity extends AppCompatActivity {
 
         AlertDialog = new AlertDialog.Builder(MainActivity.this);
 
-        AlertDialog.setTitle("애플리케이션을 종료하시겠습니까?");
+        AlertDialog.setTitle(R.string.alert_quit);
 
-        AlertDialog.setPositiveButton("예", new DialogInterface.OnClickListener() {
+        AlertDialog.setPositiveButton(R.string.alert_quit_yes, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 finish();
             }
         });
-        AlertDialog.setNegativeButton("아니오", new DialogInterface.OnClickListener() {
+        AlertDialog.setNegativeButton(R.string.alert_quit_no, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
             }
