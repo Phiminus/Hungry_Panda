@@ -79,5 +79,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-    <stirng name="Guest">\n\t\t\t\t\t\t\t\t\t\t\t게스트로 접속하기\n</stirng>
+    <string name="Guest">\n\t\t\t\t\t\t\t\t\t\t게스트로 접속하기\n</string>
+    <string name="SIGNIN">\n\t\t\t회원가입\n</string>
+    <string name="LOGIN">\n\t\t\t\t로그인\n</string>
 </resources>

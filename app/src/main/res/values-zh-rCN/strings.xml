@@ -80,5 +80,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-    <stirng name="Guest">\n\t\t\t\t\t\t\t\t\t\t\t访客登录\n</stirng>
+    <string name="Guest">\n\t\t\t\t\t\t\t\t\t\t\t游客登录\n</string>
+    <string name="SIGNIN">\n\t\t登录会员\n</string>
+    <string name="LOGIN">\n\t\t\t\t登录\n</string>
 </resources>
